@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "830439085731",
+    "firebase_url": "https://noticeboard3-80a57.firebaseio.com",
+    "project_id": "noticeboard3-80a57",
+    "storage_bucket": "noticeboard3-80a57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830439085731:android:645731cf5339d63d",
+        "android_client_info": {
+          "package_name": "com.example.kalyansai.noticeboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830439085731-puu0og4166n0lagdp2ho5un6501mi9f4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kalyansai.noticeboard",
+            "certificate_hash": "5d1325261078ff60dbcc7559ada7a4e4ac1cf340"
+          }
+        },
+        {
+          "client_id": "830439085731-q5efrc760t6h3r6n8518uu3474rrq837.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLcVFLVryV1oVnV7ztOfU5KalbcYpPmIQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830439085731-q5efrc760t6h3r6n8518uu3474rrq837.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

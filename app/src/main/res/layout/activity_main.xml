@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kalyansai.noticeboard.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background">
+
+        <RelativeLayout
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_above="@+id/relativeLayout">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/cbit"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="100dp"
+            android:id="@+id/relativeLayout">
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_login"
+                android:text="Login as Student"
+                android:id="@+id/Login"
+                android:textColor="@color/background"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_signup"
+                android:text="Login as Admin"
+                android:textSize="16dp"
+                android:id="@+id/Signup"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_centerVertical="true"
+                android:layout_alignLeft="@+id/Login"
+                android:layout_alignStart="@+id/Login" />
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
